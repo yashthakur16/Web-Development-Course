@@ -1,0 +1,28 @@
+#para1
+{
+    background-color: rgb(0, 0, 0);
+    color: blue;
+
+}
+
+#para2
+{
+    background-color: rgb(212, 95, 138);
+}
+
+#para3
+{
+    background-color: #9dedde;
+}
+
+h2
+{
+    font-size: 40px;
+    text-align: center;
+}
+
+#para4
+{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: hsl(39, 60%, 61%);
+}
