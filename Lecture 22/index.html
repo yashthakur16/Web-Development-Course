@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .container 
+      {
+        background-color: pink;
+        height: 650px;
+        border: solid black 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box
+      {
+        /* custom variables */
+        --primary-color: red;
+        --custom-w:330px;
+
+        /*  */
+        background-color: blue;
+        width: var(--custom-w);
+        height: 330px;
+        border: solid black 1px;
+        margin: 5px;
+        padding: 5px;
+
+        /* box-shadow: 10px 10px black; */
+
+        box-shadow: 10px 15px 5px black;
+
+        /* box-shadow: 10px 15px 10px 2px black; */
+
+        /* box-shadow: inset 10px 15px black; */
+
+        /* box-shadow: 10px 15px aquamarine,15px 20px var(--primary-color); */
+      }
+
+      #head1
+      {
+        color: white;
+        /* text-shadow: 4px 3px black; */
+        text-shadow: black 4px 3px 2px ;
+        /* text-shadow: 4px 3px black, 6px 5px red, 8px 7px pink; */
+      }
+      img
+      {
+        width: 25%;
+        height: 25%;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            
+            <img src="logo.svg" alt="">
+            <h2 id="head1">Welcome to autocharge</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.
+            Ab, nemo debitis! Exercitationem, rem unde.
+            Sint reprehenderit consequuntur vero eaque iusto?
+            Sint ipsa pariatur nihil reiciendis commodi.
+            Tempora esse expedita accusamus quo aspernatur?</p>
+        </div>
+    </div>
+</body>
+</html>
