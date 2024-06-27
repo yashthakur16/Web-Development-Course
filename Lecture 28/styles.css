@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer 
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    /* justify-item:center; */
+    align-items: end;
+}
+
+.items
+{
+    height: 100px;
+    width: 100px;
+    border: solid 1px black;
+
+    background-color:navajowhite;   
+    /* justify-self: end; */
+    /* align-self: start; */
+    /* place-self: center; */
+
+
+}
